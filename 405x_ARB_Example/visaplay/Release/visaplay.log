@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (visaplay.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  VisaExample.cpp
+VisaExample.cpp(52): warning C4018: '<': signed/unsigned mismatch
+VisaExample.cpp(56): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+VisaExample.cpp(21): warning C4101: 'iModelStr': unreferenced local variable
+VisaExample.cpp(22): warning C4101: 'k': unreferenced local variable
+VisaExample.cpp(22): warning C4101: 'l': unreferenced local variable
+VisaExample.cpp(22): warning C4101: 'j': unreferenced local variable
+VisaExample.cpp(20): warning C4101: 'iManf': unreferenced local variable
+  Generating code
+  0 of 8 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  visaplay.vcxproj -> C:\git\GitHub\C_Examples_VISA\visaplay\Release\VisaExample.exe
