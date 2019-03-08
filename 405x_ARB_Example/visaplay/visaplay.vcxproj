@@ -73,16 +73,16 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Include;C:\Program Files (x86)\IVI Foundation\IVI\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files (x86)\IVI Foundation\VISA\WinNT\lib\msc;C:\Program Files (x86)\IVI Foundation\IVI\Lib\msc;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\IVI Foundation\VISA\WinNT\lib\msc;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Include;C:\Program Files (x86)\IVI Foundation\IVI\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files (x86)\IVI Foundation\VISA\WinNT\lib\msc;C:\Program Files (x86)\IVI Foundation\IVI\Lib\msc;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\IVI Foundation\VISA\WinNT\lib\msc;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -98,7 +98,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <AdditionalLibraryDirectories>C:\Program Files\IVI Foundation\VISA\Win64\lib\msc;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>ivi.lib;visa32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>visa32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -127,7 +127,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>C:\Program Files\IVI Foundation\VISA\Win64\lib\msc;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>ivi.lib;visa32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>visa32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

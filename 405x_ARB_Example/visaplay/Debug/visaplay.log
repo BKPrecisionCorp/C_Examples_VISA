@@ -1,4 +1,4 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (visaplay.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (visaplay.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   stdafx.cpp
   VisaExample.cpp
 c:\git\github\c_examples_visa\405x_arb_example\visaplay\visaexample.cpp(56): warning C4018: '<': signed/unsigned mismatch
@@ -16,4 +16,3 @@ c:\git\github\c_examples_visa\405x_arb_example\visaplay\visaexample.cpp(25): war
 c:\git\github\c_examples_visa\405x_arb_example\visaplay\visaexample.cpp(25): warning C4101: 'j': unreferenced local variable
 c:\git\github\c_examples_visa\405x_arb_example\visaplay\visaexample.cpp(23): warning C4101: 'iManf': unreferenced local variable
   visaplay.vcxproj -> C:\git\GitHub\C_Examples_VISA\405x_ARB_Example\Debug\VisaExample.exe
-  visaplay.vcxproj -> C:\git\GitHub\C_Examples_VISA\405x_ARB_Example\Debug\VisaExample.pdb (Partial PDB)

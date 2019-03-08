@@ -1,0 +1,17 @@
+﻿  pch.cpp
+  5492BCurrentLog.cpp
+c:\git\github\c_examples_visa\5492b_currentlog\5492bcurrentlog\5492bcurrentlog\5492bcurrentlog.cpp(54): warning C4018: '<': signed/unsigned mismatch
+c:\git\github\c_examples_visa\5492b_currentlog\5492bcurrentlog\5492bcurrentlog\5492bcurrentlog.cpp(22): warning C4101: 'iModelStr': unreferenced local variable
+c:\git\github\c_examples_visa\5492b_currentlog\5492bcurrentlog\5492bcurrentlog\5492bcurrentlog.cpp(23): warning C4101: 'k': unreferenced local variable
+c:\git\github\c_examples_visa\5492b_currentlog\5492bcurrentlog\5492bcurrentlog\5492bcurrentlog.cpp(23): warning C4101: 'l': unreferenced local variable
+c:\git\github\c_examples_visa\5492b_currentlog\5492bcurrentlog\5492bcurrentlog\5492bcurrentlog.cpp(23): warning C4101: 'j': unreferenced local variable
+c:\git\github\c_examples_visa\5492b_currentlog\5492bcurrentlog\5492bcurrentlog\5492bcurrentlog.cpp(21): warning C4101: 'iManf': unreferenced local variable
+5492BCurrentLog.obj : error LNK2019: unresolved external symbol _viOpenDefaultRM@4 referenced in function _main
+5492BCurrentLog.obj : error LNK2019: unresolved external symbol _viFindRsrc@20 referenced in function _main
+5492BCurrentLog.obj : error LNK2019: unresolved external symbol _viFindNext@8 referenced in function _main
+5492BCurrentLog.obj : error LNK2019: unresolved external symbol _viOpen@20 referenced in function _main
+5492BCurrentLog.obj : error LNK2019: unresolved external symbol _viClose@4 referenced in function _main
+5492BCurrentLog.obj : error LNK2019: unresolved external symbol _viStatusDesc@12 referenced in function _main
+5492BCurrentLog.obj : error LNK2019: unresolved external symbol _viWrite@16 referenced in function _main
+5492BCurrentLog.obj : error LNK2019: unresolved external symbol _viQueryf referenced in function _main
+C:\git\GitHub\C_Examples_VISA\5492B_CurrentLog\5492BCurrentLog\Debug\5492BCurrentLog.exe : fatal error LNK1120: 8 unresolved externals

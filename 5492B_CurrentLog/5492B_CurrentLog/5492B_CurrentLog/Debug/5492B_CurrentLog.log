@@ -1,0 +1,8 @@
+﻿  5492B_CurrentLog.cpp
+c:\git\github\c_examples_visa\5492b_currentlog\5492b_currentlog\5492b_currentlog\5492b_currentlog.cpp(55): warning C4018: '<': signed/unsigned mismatch
+c:\git\github\c_examples_visa\5492b_currentlog\5492b_currentlog\5492b_currentlog\5492b_currentlog.cpp(23): warning C4101: 'iModelStr': unreferenced local variable
+c:\git\github\c_examples_visa\5492b_currentlog\5492b_currentlog\5492b_currentlog\5492b_currentlog.cpp(24): warning C4101: 'k': unreferenced local variable
+c:\git\github\c_examples_visa\5492b_currentlog\5492b_currentlog\5492b_currentlog\5492b_currentlog.cpp(24): warning C4101: 'l': unreferenced local variable
+c:\git\github\c_examples_visa\5492b_currentlog\5492b_currentlog\5492b_currentlog\5492b_currentlog.cpp(24): warning C4101: 'j': unreferenced local variable
+c:\git\github\c_examples_visa\5492b_currentlog\5492b_currentlog\5492b_currentlog\5492b_currentlog.cpp(22): warning C4101: 'iManf': unreferenced local variable
+  5492B_CurrentLog.vcxproj -> C:\git\GitHub\C_Examples_VISA\5492B_CurrentLog\5492B_CurrentLog\Debug\5492B_CurrentLog.exe
